@@ -117,7 +117,6 @@ public class HeartbeatController {
 
     private void sendToSynologyChat(String message) {
         chatSender.sendMessage(message);
-        //chatSender.sendMessage("켄달스퀘어 이천5의 heartbeat 중단 감지됨.");
 
         System.out.println("[Synology Chat 전송] " + message);
     }

@@ -5,6 +5,8 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 src/main/resources/application.properties
+src/main/java/com/laitsystem/zenon_rt_alarm/config/AES256Util.java
+
 
 ### STS ###
 .apt_generated
