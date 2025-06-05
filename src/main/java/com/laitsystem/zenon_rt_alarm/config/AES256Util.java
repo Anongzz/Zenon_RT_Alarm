@@ -1,7 +1,5 @@
 package com.laitsystem.zenon_rt_alarm.config;
 
-import jakarta.annotation.PostConstruct;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import javax.crypto.Cipher;
@@ -11,12 +9,6 @@ import java.util.Base64;
 
 @Component
 public class AES256Util {
-
-//    @Value("${aes256util.security.key}")
-//    private String key;
-//
-//    @Value("${aes256util.security.iv}")
-//    private String iv;
 
     private static final String key = "ZenonRuntimeAlarmTest20250602!!!";
     private static final String iv = "LaitsystemTest!!";

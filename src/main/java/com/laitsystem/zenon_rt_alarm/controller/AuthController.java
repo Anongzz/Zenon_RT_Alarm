@@ -3,7 +3,6 @@ package com.laitsystem.zenon_rt_alarm.controller;
 import com.laitsystem.zenon_rt_alarm.component.UserRepository;
 import com.laitsystem.zenon_rt_alarm.config.AES256Util;
 
-import com.laitsystem.zenon_rt_alarm.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
